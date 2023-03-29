@@ -25,7 +25,7 @@
 ### Задание 1
 
 `Вношу изменения в README.md`
-
+[First commit link](https://github.com/netology-code/sys-pattern-homework/commit/4d9b4bb2a4e80f8a5e75e53cbdb0c7db907a2138)
 ```
 git clone https://github.com/artem-senkov/8-03-hw
 nano README.md
