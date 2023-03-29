@@ -26,13 +26,6 @@
 
 `Вношу изменения в README.md`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
 ```
 git clone https://github.com/artem-senkov/8-03-hw
 git diff
@@ -44,10 +37,9 @@ git push origin main
 
 `При необходимости прикрепитe сюда скриншоты
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_010_.png)
-![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_011_.png)
-![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_012_.png)
+![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m00s_011_.png)
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m14s_012_.png)`
 
-`
 
 
 ---
