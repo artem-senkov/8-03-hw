@@ -28,6 +28,7 @@
 
 ```
 git clone https://github.com/artem-senkov/8-03-hw
+nano README.md
 git diff
 git diff --staged
 git add README.md
@@ -35,10 +36,10 @@ git commit -m 'First commit'
 git push origin main
 ```
 
-`При необходимости прикрепитe сюда скриншоты
+`При необходимости прикрепитe сюда скриншоты`
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_010_.png)
 ![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m00s_011_.png)
-![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m14s_012_.png)`
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m14s_012_.png)
 
 
 
