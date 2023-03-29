@@ -24,7 +24,7 @@
 
 ### Задание 1
 
-`Приведите ответ в свободной форме........`
+`Вношу изменения в README.md`
 
 1. `Заполните здесь этапы выполнения, если требуется ....`
 2. `Заполните здесь этапы выполнения, если требуется ....`
@@ -34,15 +34,20 @@
 6. 
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+git clone https://github.com/artem-senkov/8-03-hw
+git diff
+git diff --staged
+git add README.md
+git commit -m 'First commit'
+git push origin main
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_010_.png)
+![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_011_.png)
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_012_.png)
+
+`
 
 
 ---
