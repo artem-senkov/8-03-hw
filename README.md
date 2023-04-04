@@ -25,9 +25,9 @@
 ### Задание 1
 
 `Вношу изменения в README.md`
-[First commit link](https://github.com/netology-code/sys-pattern-homework/commit/4d9b4bb2a4e80f8a5e75e53cbdb0c7db907a2138)
+[First commit link](https://github.com/artem-senkov/githomework/commit/f4447682f2c73dbaab0956f3e37c6674ecaffb8a)
 ```
-git clone https://github.com/artem-senkov/8-03-hw
+git clone https://github.com/artem-senkov/githomework
 nano README.md
 git diff
 git diff --staged
@@ -47,9 +47,14 @@ git push origin main
 ### Задание 2
 
 `Добавил gitignore`
-[Ссылка на commit](https://github.com/netology-code/sys-pattern-homework/commit/27c6483a0670b95049081b0b6352f04b3e556171)
+[Ссылка на commit](https://github.com/artem-senkov/githomework/commit/8b9d8dbd716437708bb75a5c43be314a964e34dc)
 
-
+```
+nano .gitignore
+git add .gitignore
+git commit -m 'gitignore add commit'
+git push origin main
+```
 
 ---
 
@@ -57,11 +62,42 @@ git push origin main
 
 `Создал ветку dev сделал в ней несколько commitov и произвел слияние с main`
 
-[Network graph link](https://github.com/artem-senkov/8-03-hw/network)
-
+[Network graph link](https://github.com/artem-senkov/githomework/network)
+```
+git checkout -b dev
+nano test.sh
+git add test.sh
+git commit -m 'dev 1.0  commit'
+nano test.sh
+git add test.sh
+git commit -m 'dev 1.1  commit'
+git push origin dev
+git checkout main
+git merge dev
+git push origin main
+```
 ---
 ## Дополнительные задания (со звездочкой*)
 
 `Сделал ветку conflict, внес изменения в файл, слил ее с main с приоритетом из ветки  conflict`
 
-[Network graph link](https://github.com/artem-senkov/8-03-hw/network)
+[Network graph link](https://github.com/artem-senkov/githomework/network)
+```
+git checkout -b conflict
+nano test.sh
+git add test.sh
+git commit -m 'conflict 1.0  commit'
+nano test.sh
+git add test.sh
+git commit -m 'conflict 1.1  commit'
+git push origin conflict
+git checkout main
+nano test.sh
+git commit -m 'main  commit'
+git push origin main
+git merge conflict
+git merge --abort
+git merge -Xours conflict 
+git commit -m 'main  commit aftermerge'
+git push origin main
+
