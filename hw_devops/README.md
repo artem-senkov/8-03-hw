@@ -29,10 +29,12 @@
 ```
 ```
 
-![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h43m44s_010_.png)
-![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m00s_011_.png)
-![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/screenshot20h44m14s_012_.png)
-
+![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/config1.png)
+![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/config2.png)
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/result1.png)
+![screen 4](https://github.com/artem-senkov/8-03-hw/blob/main/img/result2.png)
+![screen 5](https://github.com/artem-senkov/8-03-hw/blob/main/img/repo1.png)
+![screen 6](https://github.com/artem-senkov/8-03-hw/blob/main/img/repo2.png)
 
 
 ---
