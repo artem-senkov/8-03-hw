@@ -69,5 +69,13 @@ pipeline {
 ---
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/stageview.png)
 ![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/3consoleoutput.png)
+---
+Задание 4* Выполнил в Задании 3
+Придумайте способ версионировать приложение, чтобы каждый следующий запуск сборки присваивал имени файла новую версию. Таким образом, в репозитории Nexus будет храниться история релизов.
+
+Подсказка: используйте переменную BUILD_NUMBER.
+
+В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+---
 ![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/rawrepo.png)
 
