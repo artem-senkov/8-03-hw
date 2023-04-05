@@ -37,6 +37,36 @@
 Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
 Загрузите файл в репозиторий с помощью jenkins.
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.`
-![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/1pipeconfig.png.png)
-![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/1piperesult.png)
-![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/1pipeconsole.png)
+---
+pipeline {
+    agent any
+
+    stages {
+        stage('Git') {
+            steps {
+                git url:'https://github.com/artem-senkov/sdvps-materials.git', branch: 'main'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh '/usr/local/go/bin/go test .'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'ls'
+                sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o goapp.v.$BUILD_NUMBER'
+                sh 'ls'
+            }
+        }
+        stage('Push') {
+            steps {
+                sh 'curl -u "admin:passw" http://192.168.56.10:8081/repository/raw_repo1/ --upload-file goapp.v.$BUILD_NUMBER'
+            }
+        }
+    }
+}
+---
+![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/stageview.png)
+![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/3consoleoutput.png)
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/rawrepo.png)
