@@ -24,7 +24,7 @@
 `Создайте новый проект pipeline.
 Перепишите сборку из задания 1 на declarative в виде кода.`
 
-![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/pipeconfig.png.png)
+![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/pipeconfig.png)
 ![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/piperesult.png)
 ![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/pipeconsole.png)
 
