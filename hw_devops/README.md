@@ -70,3 +70,4 @@ pipeline {
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/stageview.png)
 ![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/3consoleoutput.png)
 ![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/rawrepo.png)
+
