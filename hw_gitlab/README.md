@@ -13,8 +13,8 @@
 ```
 
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/project1.png)
-![screen 2]("https://github.com/artem-senkov/8-03-hw/blob/main/img/runner installed.png")
-![screen 3]("https://github.com/artem-senkov/8-03-hw/blob/main/img/runner connected.png")
+![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/runner%20installed.png)
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/runner%20connected.png)
 
 ---
 
@@ -31,9 +31,9 @@
  * скриншоты с успешно собранными сборками.
 
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/gitpush.png)
-![screen 2]("https://github.com/artem-senkov/8-03-hw/blob/main/img/push pipeline.png")
-![screen 3]("https://github.com/artem-senkov/8-03-hw/blob/main/img/jobs executing.png")
-![screen 4]("https://github.com/artem-senkov/8-03-hw/blob/main/img/jobsresult.png")
+![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/push%20pipeline.png)
+![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/jobs%20executing.png)
+![screen 4](https://github.com/artem-senkov/8-03-hw/blob/main/img/jobsresult.png")
 ---
 stages:
   - test
