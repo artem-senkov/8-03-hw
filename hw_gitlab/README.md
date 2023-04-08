@@ -33,8 +33,8 @@
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/gitpush.png)
 ![screen 2](https://github.com/artem-senkov/8-03-hw/blob/main/img/push%20pipeline.png)
 ![screen 3](https://github.com/artem-senkov/8-03-hw/blob/main/img/jobs%20executing.png)
-![screen 4](https://github.com/artem-senkov/8-03-hw/blob/main/img/jobsresult.png")
----
+![screen 4](https://github.com/artem-senkov/8-03-hw/blob/main/img/jobsresult.png)
+```yaml
 stages:
   - test
   - build
@@ -50,7 +50,7 @@ build:
   image: docker:latest
   script:
    - docker build .
----
+```
 ---
 
 ### Задание 3*
@@ -61,7 +61,7 @@ build:
  - тесты запускались только при изменении файлов с расширением *.go.
 
 В качестве ответа добавьте в шаблон с решением файл gitlab-ci.yml своего проекта или вставьте код в соответсвующее поле в шаблоне.
----
+```yaml
 stages:
   - test
   - build
@@ -81,7 +81,6 @@ build:
   image: docker:latest
   script:
    - docker build .
-
----
+```
 ![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/go_filerule.png)
 ---
