@@ -8,7 +8,7 @@
 ```
 ```
 
-![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/yanmon1.png)
+![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/yanmon3.png)
 
 
 
@@ -18,7 +18,7 @@
 
 `С помощью Yandex Monitoring сделайте 2 алерта на загрузку процессора: WARN и ALARM. Создайте уведомление по e-mail.`
 
-![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/yanmon2.png)
+![screen 1](https://github.com/artem-senkov/8-03-hw/blob/main/img/yanmon4.png)
 
 
 ---
